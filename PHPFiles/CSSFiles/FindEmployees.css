@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color:rgba(237, 243, 255, 1);
+}
+
+.hero-container {
+    background-color: #EDF3FF;
+    height: 450px;
+
+}
+.hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px 20px;
+    width: 100vw;
+
+
+}
+.hero h1 {
+    font-size: 2.5em;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.hero h1 span:first-child {
+    color: #f4a261;
+}
+
+
+.hero h1 span:last-child {
+    background-image: url('IMG/companyorange.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #002E5B;
+    padding: 5px 10px;
+    display: inline-block;
+    border: none;
+
+}
+
+.hero p {
+    font-size: 1em;
+    color: #555;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1300px;
+    margin: 10px auto;
+    margin-bottom: 200px;
+    background-color: #EDF3FF;
+    gap: 10px;
+    background: #fff;
+    padding: 23px;
+    font-family: 'Epilogue', sans-serif;
+    height: 50px;
+
+}
+
+.divider {
+    background-color: #D6DDEB;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.searchimg {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px
+}
+
+
+.search-bar input {
+    padding: 12px;
+    width: 430px;
+    border: none;
+    font-size: 1em;
+    border-bottom: 1px solid #D6DDEB;
+
+}
+
+.search-bar button {
+    padding: 15px 40px;
+    background-color: #0A66C2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+h2, h3{
+    color: rgba(37, 50, 75, 1);
+}
+h2{
+    font-size: xx-large;
+}
+
+
+.Employees-sec{
+
+width: 800px;
+display: flex;
+flex-direction: column;
+
+margin-top: 100px;
+margin-left: 330px;
+
+
+}
+.Employees{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+.Employeediv{
+    width: 350px;
+    height: fit-content;
+    border: solid 2px rgba(214, 221, 235, 1);
+    padding: 10px;
+}
+
+.Employeediv span{
+
+    border: solid 1px orange;
+        border-radius: 10px;
+        color: orange;
+        padding: 5px;
+        cursor: pointer;
+}
+.Employeediv span :hover{
+background-color: orange;
+color: white;
+}
+.pagination a {
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+footer{
+    margin-top: 50px;
+}
+
+@media(max-width: 768px ){
+
+    .Employees-sec{
+        margin-left: 30px;
+        margin-top: 300px;
+        width: 400px;
+    }
+
+
+
+
+
+
+
+}

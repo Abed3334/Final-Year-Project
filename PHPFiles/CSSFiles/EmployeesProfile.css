@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    background-color:rgba(237, 243, 255, 1);
+}
+
+.Sec-one{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.Profile{
+    display: flex;
+    gap: 20px;
+    border: solid 2px rgba(214, 221, 235, 1);
+    width: 750px;
+    height: 250px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.Adition-Details{
+    border: solid 2px rgba(214, 221, 235, 1);
+    
+    padding: 20px;
+}
+.Details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Details img{
+    width: 20px;
+    height:20px;
+    margin-bottom: 37px;
+
+}
+
+.Profile span{
+    background-color: rgba(86, 205, 173, 0.1);
+    padding: 10px;
+    width: 50px;
+    height: 30px;
+    color: rgba(86, 205, 173, 1);
+    border-radius: 10px;
+}
+
+.Profile a{
+    text-decoration: none;}
+
+
+.sec-two{
+    display: flex;
+    margin-top: 0px;
+    height: 460px;
+    
+
+}
+
+.Aboutme{
+    width:700px;
+    border: solid 2px rgba(214, 221, 235, 1); 
+    margin-left: 200px;
+    padding: 20px;
+  height: fit-content;
+  margin-top: 50px;
+}
+
+.socialLinks{
+    border: solid 2px rgba(214, 221, 235, 1); 
+    margin-top: 50px;
+    margin-left: 230px;
+    width:205px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.Skills{
+width: 700px;
+height: fit-content;
+border: solid 2px rgba(214, 221, 235, 1); 
+margin-left: 200px;
+padding: 20px;
+
+
+}
+.skill-content{
+
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+
+
+}
+
+ .tag{
+    color: BLUE;
+    background-color:rgb(196, 196, 255);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Experiance{
+    display: flex;
+}
+.section-Experiance{
+
+    
+        width: 700px;
+        height: fit-content;
+        border: solid 2px rgba(214, 221, 235, 1); 
+        margin-left: 200px;
+        padding: 20px;
+margin-top: 50px;
+
+}
+
+
+.exp-content{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+
+}
+.exp-details{
+    width: 400px;
+    height: fit-content;
+}
+
+.Additional-Details{
+    border: solid 2px rgba(214, 221, 235, 1); 
+   
+    margin-left: 230px;
+    width:205px;
+    padding: 20px;
+    margin-top: 50px;
+    height: fit-content;
+}
+
+.Education{
+    width: 700px;
+    height: fit-content;
+    border: solid 2px rgba(214, 221, 235, 1); 
+    margin-left: 200px;
+    padding: 20px;
+margin-top: 50px;
+
+
+}
+
+.Edu-content{
+
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+footer{
+    margin-top: 50px;
+}
+
+
+
+/* Additional media query for smaller devices such as mobile phones */
+@media (max-width: 767px) {
+    header, footer {
+        text-align: center; /* Center the header and footer content */
+    }
+
+    .Profile img, .exp-content img, .edu-content img {
+        width: 80px; /* Reduce the image size for smaller devices */
+        height: 80px;
+    }
+
+    .Adition-Details{
+       background-color: aqua;
+    }
+    .Profile, .Aboutme, .Skills, .section-Experiance, .Education, .socialLinks, .Additional-Details {
+        width: 100%; /* Make each section take full width */
+        margin-left: 0;
+        padding: 15px; /* Add some padding for better readability */
+    }
+
+    .Skills .skill-content .tag, .socialLinks .Details, .Adition-Details .Details {
+        justify-content: center; /* Center content within tags and details */
+    }
+
+    .sec-two,.Skills , .Experiance, .section-Experiance {
+        flex-direction: column; /* Ensure everything stacks vertically */
+        padding: 0 10px; /* Add padding for better spacing */
+    }
+    .Skills{
+        margin-top: 350px;
+        gap:20px;
+        
+    }
+}
